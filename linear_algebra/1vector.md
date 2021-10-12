@@ -35,4 +35,5 @@
 예를 들어 5명의 국어 성적과 영어 성적의 평균을 구한다고 가정한다.   
 국어 성적에 대한 정보를 벡터로 표현하면 <img src="https://render.githubusercontent.com/render/math?math=k=\begin{bmatrix}100\\ 70\\ 30\\ 45\\ 80\end{bmatrix}"> 와 같고 영어 점수에 대한 벡터는 <img src="https://render.githubusercontent.com/render/math?math=e=\begin{bmatrix}83\\ 50\\ 25\\ 30\\ 60\end{bmatrix}"> 와 같다.   
 이 떄, 두 점수의 평균 점수를 매기는 법은   
-$$avg=\frac{1}{2}k=\frac{1}{2}e=\frac{1}{2}\begin{bmatrix}100\\ 70\\ 30\\ 45\\ 80\end{bmatrix}+\frac{1}{2} \begin{bmatrix}83\\ 50\\25\\30\\60 \end{bmatrix}$$
+<img src="https://render.githubusercontent.com/render/math?math=avg=\frac{1}{2}k=\frac{1}{2}e=\frac{1}{2}\begin{bmatrix}100\\ 70\\ 30\\ 45\\ 80\end{bmatrix}+\frac{1}{2} \begin{bmatrix}83\\ 50\\25\\30\\60 \end{bmatrix}"> 
+
