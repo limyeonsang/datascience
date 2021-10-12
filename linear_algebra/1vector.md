@@ -34,6 +34,15 @@
 
 예를 들어 5명의 국어 성적과 영어 성적의 평균을 구한다고 가정한다.   
 국어 성적에 대한 정보를 벡터로 표현하면 <img src="https://render.githubusercontent.com/render/math?math=k=\begin{bmatrix}100\\ 70\\ 30\\ 45\\ 80\end{bmatrix}"> 와 같고 영어 점수에 대한 벡터는 <img src="https://render.githubusercontent.com/render/math?math=e=\begin{bmatrix}83\\ 50\\ 25\\ 30\\ 60\end{bmatrix}"> 와 같다.   
-이 떄, 두 점수의 평균 점수를 매기는 법은   
-<img src="https://render.githubusercontent.com/render/math?math=avg=\frac{1}{2}k=\frac{1}{2}e=\frac{1}{2}\begin{bmatrix}100\\ 70\\ 30\\ 45\\ 80\end{bmatrix}+\frac{1}{2} \begin{bmatrix}83\\ 50\\25\\30\\60 \end{bmatrix}"> 
+이 떄, 두 점수의 평균 점수를 매기는 법은 아래와 같다. 
+$$avg=\frac{1}{2}k=\frac{1}{2}e=\frac{1}{2}\begin{bmatrix}100\\ 70\\ 30\\ 45\\ 80\end{bmatrix}+\frac{1}{2} \begin{bmatrix}83\\ 50\\25\\30\\60 \end{bmatrix}"$$
 
+## 벡터 간의 선형 결합
+벡터 간의 선형 결합(linear combination)을 표현하기 위해 상수배와 벡터 간의 합은 필수적인 개념이다.  
+상수배와 벡터간의 합을 한번에 활용하면 다음 예시와 같이 두 개의 임의의 벡터에 대한 선형결합을 표현할 수 있다. 
+$$\rightarrow c_1\begin{bmatrix}1\\0\end{bmatrix}+c_2\begin{bmatrix}0\\1\end{bmatrix}$$
+선형 결합은 상수배와 벡터간의 합을 한번에 조합해 표현한 것이다. 위의 수식에서 c1, c2는 각각이 모든 실수에 대응될 수 있는데, c1,c2가 바뀌면서 얻게되는 선형결합의 결과는 2차원 실수 벡터 공간 상에 있는 모든 벡터와 대응된다. 
+
+이러한 벡터간의 선형 결합이 어떤 벡터공간 전체에 대응된다는 개념을 공간 생성(span)이라고 하며, 이는 행렬 곱과 연립방정식의 해를 얻는 과정에 대한 새로운 관점을 제시한다.
+
+출처: https://angeloyeo.github.io/2020/09/07/basic_vector_operation.html
